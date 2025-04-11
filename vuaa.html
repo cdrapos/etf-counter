@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VUAA Investment Calculator</title>
+    <link rel="stylesheet" href="vuaa-css.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <h1>VUAA Investment Calculator</h1>
+
+      <label for="monthly">Monthly Investment (€):</label>
+      <input type="number" id="monthly" placeholder="e.g. 100€" />
+
+      <label for="years">Investment Duration (Years):</label>
+      <input type="number" id="years" placeholder="e.g. 5€" />
+
+      <label for="rate">Expected Annual Return (%):</label>
+      <input type="number" id="rate" placeholder="e.g. 10€" />
+
+      <button onclick="calculateVuaa()">Calculate</button>
+
+      <div class="results" id="results"></div>
+    </div>
+
+    <script src="vuaaCounter.js"></script>
+  </body>
+</html>
