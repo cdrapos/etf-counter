@@ -20,6 +20,8 @@ Then click **Calculate** to see:
 👉 **[https://cdrapos.github.io/etf-counter](https://cdrapos.github.io/etf-counter)**
 
 ## 🗂️ Project Structure
+
+```plaintext
 etf-counter/
 ├── index.html      # Main HTML structure
 ├── style.css       # App styling
